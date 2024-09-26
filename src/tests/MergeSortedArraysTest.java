@@ -18,7 +18,7 @@ public class MergeSortedArraysTest {
         m = 1;
         n = 0;
         MergeSortedArrays.merge(nums1 , m, nums2, n);
-        System.out.println("Test 2: " + Arrays.toString(nums1) + " | Expected: [1, 2, 3, 5, 6]");
+        System.out.println("Test 2: " + Arrays.toString(nums1) + " | Expected: [1]");
 
         nums1 = new int[]{0};
         nums2 = new int[]{1};
