@@ -13,6 +13,15 @@ public class LeetCodeSolutions {
 
         System.out.println("Running tests for IsSubsequence...");
         IsSubsequenceTest.runTests();
+
+        System.out.println("Running tests for ValidPalindrome...");
+        ValidPalindromeTest.runTests();
+
+        System.out.println("Running tests for HappyNumber...");
+        HappyNumberTest.runTests();
+
+        System.out.println("Running tests for IntersectionOfTwoArrays...");
+        IntersectionOfTwoArraysTest.runTests();
     }
 }
 
